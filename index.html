@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>DWM</title>
+  <meta name="description" content="Send a message to a channel via a Discord webhook">
+  <meta name="author" content="JCH">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+	<div class="container">
+	 <div class="jumbotron">
+	  	<h1 class="display-5">Discord Webhook Messenger</h1>
+		<form method="post" action="/post">
+			<input type="text" name="webhook" class="form-control" placeholder="Webhook URL" /> <br>
+		  	<input type="text" name="username" class="form-control" placeholder="Username" /> <br>
+		  	<input type="text" name="avatar_url" class="form-control" placeholder="Avatar URL" /> <br>
+		  	<input type="text" name="message" class="form-control" placeholder="Message to send" /> <br> 
+		  	<input type="submit" name="submit" class="btn btn-primary" value="Send" />
+		</form>	
+	  </div>
+	</div>
+	</body>
+</html>

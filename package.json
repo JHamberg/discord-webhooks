@@ -1,0 +1,24 @@
+{
+  "name": "discord-webhooks",
+  "version": "1.0.0",
+  "description": "small program for sending discord messages via webhooks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "webhook",
+    "bot"
+  ],
+  "author": "jonatan hamberg",
+  "dependencies": {
+    "express": "latest",
+    "request": "latest",
+    "body-parser": "latest"
+  },
+  "engines": {
+    "node":"4.2.6"
+  }
+}
