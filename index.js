@@ -9,10 +9,6 @@ app.get("/", (req, res) => {
 })
 app.post("/post", (req, res) => {
 	res.redirect("/")
-	console.log(req.body.webhook)
-	console.log(req.body.message)
-	console.log(req.body.username)
-	console.log(req.body.avatar_url)
 	request({
 		method: "POST",
 		url: req.body.webhook,
