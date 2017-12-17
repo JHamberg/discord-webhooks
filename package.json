@@ -16,9 +16,16 @@
   "dependencies": {
     "express": "latest",
     "request": "latest",
-    "body-parser": "latest"
+    "body-parser": "latest",
+    "opn": "latest"
   },
   "engines": {
-    "node":"4.2.6"
+    "node": "9.3.0"
+  },
+  "bin": "index.js",
+  "pkg": {
+    "assets": [
+      "index.html"
+    ]
   }
 }
